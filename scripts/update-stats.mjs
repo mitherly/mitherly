@@ -85,6 +85,32 @@ console.log(`commits=${commits} stars=${stars} repos=${repos.length} langs=${top
 
 mkdirSync(OUT, { recursive: true });
 
+// ---------- header banner (wave) ----------
+{
+  const w = 850, h = 150;
+  save('header.svg', `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0EA5E9"/>
+      <stop offset="0.55" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#7DD3FC"/>
+    </linearGradient>
+  </defs>
+  <path d="M0 82 C 140 118, 320 120, 470 90 S 740 40, 850 66 L850 150 L0 150 Z" fill="url(#sky)" opacity="0.3"/>
+  <path d="M0 104 C 170 140, 350 140, 520 110 S 770 70, 850 92 L850 150 L0 150 Z" fill="url(#sky)"/>
+  <g font-family="${FONT}">
+    <text x="425" y="62" text-anchor="middle" font-size="50" font-weight="700" fill="#E8F4FD" opacity="0">
+      mitherly
+      <animate attributeName="opacity" from="0" to="1" dur="1.2s" fill="freeze"/>
+    </text>
+    <text x="425" y="86" text-anchor="middle" font-size="13" letter-spacing="3" fill="#0D1B2A" opacity="0">
+      SELF-TAUGHT · OPEN-SOURCE
+      <animate attributeName="opacity" from="0" to="1" dur="1.2s" begin="0.6s" fill="freeze"/>
+    </text>
+  </g>
+</svg>`);
+}
+
 // ---------- stats card (2x2) ----------
 const statsItems = [
   { label: 'TOTAL COMMITS', value: `${commits}+` },

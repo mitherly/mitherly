@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=15+y%2Fo+self-taught+developer;Python+%C2%B7+TypeScript+%C2%B7+JavaScript+%C2%B7+Java;building+VK-Wave+%E2%9A%A1;forking+the+web%2C+one+repo+at+a+time" alt="typing" />
+<img src="./assets/header.svg" width="100%" alt="mitherly" />
 
-# hey, i'm **mitherly** 👋
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=15+y%2Fo+self-taught+developer;Python+%C2%B7+TypeScript+%C2%B7+JavaScript+%C2%B7+Java;building+VK-Wave+%E2%9A%A1;forking+the+web%2C+one+repo+at+a+time" alt="typing" />
 
 **aka `tyro`** · 15 y/o · Russia 🇷🇺
 
@@ -26,27 +26,9 @@
 
 ## 🧰 tech stack
 
-### languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=py,ts,js,java,html,css,flask,fastapi,nodejs,electron,git,github,npm&theme=dark" alt="stack" /></a>
 
-### backend & desktop
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat&logo=nodedotjs&logoColor=white)
-![Electron](https://img.shields.io/badge/Electron-47848F?style=flat&logo=electron&logoColor=white)
-
-### learning
-![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat&logo=spring&logoColor=white)
-
-### tools
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
-![npm](https://img.shields.io/badge/npm-CB3837?style=flat&logo=npm&logoColor=white)
+**learning:** ![Spring](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=spring&logoColor=white)
 
 ---
 
@@ -60,6 +42,10 @@
 ---
 
 ## 🚀 projects
+
+![latest release](https://img.shields.io/github/v/release/mitherly/VK-Wave?style=flat&label=VK-Wave&labelColor=0D1B2A&color=38BDF8)
+![stars](https://img.shields.io/github/stars/mitherly/VK-Wave?style=flat&label=stars&labelColor=0D1B2A&color=7DD3FC)
+![code size](https://img.shields.io/github/languages/code-size/mitherly/VK-Wave?style=flat&label=size&labelColor=0D1B2A&color=C9DCEB)
 
 <table>
   <tr>
@@ -104,6 +90,30 @@
 <div align="center">
   <img src="./assets/top-langs.svg" width="55%" alt="top langs" />
 </div>
+
+---
+
+## 🧩 extras
+
+<details>
+<summary>🔧 <b>my setup</b></summary>
+<br>
+
+- **editor + ai**: google antigravity, zcode — ai in the loop, always
+- **os**: windows + terminal (yes, i dev on windows. fight me 😄)
+- **vcs**: git & github all the way
+
+</details>
+
+<details>
+<summary>🥚 <b>fun facts</b></summary>
+<br>
+
+- wrote my own **network scanner** (nscan) instead of just using nmap
+- forked **telegram** and turned it pink — sweetgram
+- built a whole **desktop client for VK Music** so my discord rich presence snitches what i'm listening to ([VK-Wave](https://github.com/mitherly/VK-Wave))
+
+</details>
 
 ---
 
