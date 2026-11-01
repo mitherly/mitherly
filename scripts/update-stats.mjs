@@ -111,6 +111,51 @@ mkdirSync(OUT, { recursive: true });
 </svg>`);
 }
 
+// ---------- animated equalizer ----------
+{
+  const w = 640, h = 90, baseline = 78, barW = 10, gap = 14;
+  const bars = [];
+  const barsCount = Math.floor((w - gap) / (barW + gap));
+  for (let i = 0; i < barsCount; i++) {
+    const x = gap + i * (barW + gap) + barW / 2;
+    const dur = (0.7 + ((i * 7) % 5) * 0.13).toFixed(2);
+    const begin = ((i * 11) % 9 * 0.08).toFixed(2);
+    const hMax = 30 + ((i * 13) % 6) * 5;
+    bars.push(`  <g transform="translate(${x} ${baseline})">
+    <rect x="${-barW / 2}" y="${-hMax}" width="${barW}" height="${hMax}" rx="4" fill="url(#eq)"/>
+    <animateTransform attributeName="transform" type="scale" additive="sum"
+      values="1 0.25;1 1;1 0.45;1 0.9;1 0.3;1 1;1 0.25" dur="${dur}s" begin="${begin}s" repeatCount="indefinite"/>
+  </g>`);
+  }
+  save('equalizer.svg', `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}">
+  <defs>
+    <linearGradient id="eq" x1="0" y1="0" x2="${w}" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0EA5E9"/>
+      <stop offset="0.5" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#7DD3FC"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="${baseline + 6}" width="${w}" height="3" rx="1.5" fill="#1E3A5F"/>
+${bars.join('\n')}
+</svg>`);
+}
+
+// ---------- footer wave (mirror of header) ----------
+{
+  const w = 850, h = 110;
+  save('footer.svg', `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}">
+  <defs>
+    <linearGradient id="skyt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0EA5E9"/>
+      <stop offset="0.55" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#7DD3FC"/>
+    </linearGradient>
+  </defs>
+  <path d="M0 0 L850 0 L850 44 C 710 82, 530 84, 380 54 S 140 22, 0 48 Z" fill="url(#skyt)" opacity="0.3"/>
+  <path d="M0 0 L850 0 L850 22 C 680 60, 500 62, 330 32 S 150 2, 0 26 Z" fill="url(#skyt)"/>
+</svg>`);
+}
+
 // ---------- stats card (2x2) ----------
 const statsItems = [
   { label: 'TOTAL COMMITS', value: `${commits}+` },
