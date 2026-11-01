@@ -19,6 +19,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
+      - name: recolor to sky palette
+        run: node scripts/recolor-3d.mjs
+
       - name: commit & push
         run: |
           git config user.name "github-actions[bot]"

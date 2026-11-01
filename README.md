@@ -78,6 +78,14 @@
 
 ---
 
+## 🏙 contribution city
+
+<div align="center">
+  <img src="./profile-3d-contrib/profile-night-green.svg" width="100%" alt="3d contribution graph" />
+</div>
+
+---
+
 ## 📊 github stats
 
 <table>
@@ -117,6 +125,15 @@
 
 ---
 
+<div align="center">
+  <img src="./assets/equalizer.svg" width="62%" alt="equalizer" />
+
+  **🎧 on repeat: [VK-Wave](https://github.com/mitherly/VK-Wave) — my own vk music client**
+
+</div>
+
+---
+
 ## 📫 reach me
 
 <div align="center">
@@ -132,4 +149,8 @@
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=mitherly&color=38BDF8&style=flat-square&label=profile+views" alt="views" />
+</div>
+
+<div align="center">
+  <img src="./assets/footer.svg" width="100%" alt="footer" />
 </div>
