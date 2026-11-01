@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="310" viewBox="0 0 420 310">
+  <rect width="420" height="310" rx="14" fill="#0D1B2A" stroke="#1E3A5F" />
+  <text x="24" y="38" font-family="Segoe UI, Verdana, sans-serif" font-size="15" font-weight="600" fill="#7DD3FC">top languages</text>
+    <text x="24" y="66" font-family="Segoe UI, Verdana, sans-serif" font-size="12" fill="#C9DCEB">Java</text>
+    <text x="396" y="66" text-anchor="end" font-family="Segoe UI, Verdana, sans-serif" font-size="12" fill="#7FA8C9">47.8%</text>
+    <rect x="24" y="73" width="372" height="8" rx="4" fill="#16324F" />
+    <rect x="24" y="73" width="177.81599999999997" height="8" rx="4" fill="#b07219" />
+    <text x="24" y="104" font-family="Segoe UI, Verdana, sans-serif" font-size="12" fill="#C9DCEB">C++</text>
+    <text x="396" y="104" text-anchor="end" font-family="Segoe UI, Verdana, sans-serif" font-size="12" fill="#7FA8C9">33%</text>
+    <rect x="24" y="111" width="372" height="8" rx="4" fill="#16324F" />
+    <rect x="24" y="111" width="122.76" height="8" rx="4" fill="#f34b7d" />
+    <text x="24" y="142" font-family="Segoe UI, Verdana, sans-serif" font-size="12" fill="#C9DCEB">C</text>
+    <text x="396" y="142" text-anchor="end" font-family="Segoe UI, Verdana, sans-serif" font-size="12" fill="#7FA8C9">10.1%</text>
+    <rect x="24" y="149" width="372" height="8" rx="4" fill="#16324F" />
+    <rect x="24" y="149" width="37.571999999999996" height="8" rx="4" fill="#555555" />
+    <text x="24" y="180" font-family="Segoe UI, Verdana, sans-serif" font-size="12" fill="#C9DCEB">Assembly</text>
+    <text x="396" y="180" text-anchor="end" font-family="Segoe UI, Verdana, sans-serif" font-size="12" fill="#7FA8C9">3.5%</text>
+    <rect x="24" y="187" width="372" height="8" rx="4" fill="#16324F" />
+    <rect x="24" y="187" width="13.02" height="8" rx="4" fill="#8b949e" />
+    <text x="24" y="218" font-family="Segoe UI, Verdana, sans-serif" font-size="12" fill="#C9DCEB">Kotlin</text>
+    <text x="396" y="218" text-anchor="end" font-family="Segoe UI, Verdana, sans-serif" font-size="12" fill="#7FA8C9">1.7%</text>
+    <rect x="24" y="225" width="372" height="8" rx="4" fill="#16324F" />
+    <rect x="24" y="225" width="6.324" height="8" rx="4" fill="#A97BFF" />
+    <text x="24" y="256" font-family="Segoe UI, Verdana, sans-serif" font-size="12" fill="#C9DCEB">Go</text>
+    <text x="396" y="256" text-anchor="end" font-family="Segoe UI, Verdana, sans-serif" font-size="12" fill="#7FA8C9">1.2%</text>
+    <rect x="24" y="263" width="372" height="8" rx="4" fill="#16324F" />
+    <rect x="24" y="263" width="4.4639999999999995" height="8" rx="4" fill="#00ADD8" />
+</svg>

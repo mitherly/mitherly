@@ -65,24 +65,24 @@
   <tr>
     <td width="50%">
       <a href="https://github.com/mitherly/VK-Wave" align="center">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=mitherly&repo=VK-Wave&hide_border=true&bg_color=0D1B2A&title_color=7DD3FC&icon_color=38BDF8&text_color=C9DCEB" />
+        <img src="./assets/pin-VK-Wave.svg" width="100%" alt="VK-Wave" />
       </a>
     </td>
     <td width="50%">
       <a href="https://github.com/mitherly/sweetgram-fork" align="center">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=mitherly&repo=sweetgram-fork&hide_border=true&bg_color=0D1B2A&title_color=7DD3FC&icon_color=38BDF8&text_color=C9DCEB" />
+        <img src="./assets/pin-sweetgram-fork.svg" width="100%" alt="sweetgram-fork" />
       </a>
     </td>
   </tr>
   <tr>
     <td width="50%">
       <a href="https://github.com/mitherly/nscan" align="center">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=mitherly&repo=nscan&hide_border=true&bg_color=0D1B2A&title_color=7DD3FC&icon_color=38BDF8&text_color=C9DCEB" />
+        <img src="./assets/pin-nscan.svg" width="100%" alt="nscan" />
       </a>
     </td>
     <td width="50%">
       <a href="https://github.com/mitherly/arsenalsmp" align="center">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=mitherly&repo=arsenalsmp&hide_border=true&bg_color=0D1B2A&title_color=7DD3FC&icon_color=38BDF8&text_color=C9DCEB" />
+        <img src="./assets/pin-arsenalsmp.svg" width="100%" alt="arsenalsmp" />
       </a>
     </td>
   </tr>
@@ -94,13 +94,15 @@
 
 ## 📊 github stats
 
-<div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=mitherly&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1B2A&title_color=7DD3FC&icon_color=38BDF8&text_color=C9DCEB" alt="stats" />
-  <img height="170" src="https://streak-stats.demolab.com?user=mitherly&hide_border=true&background=0D1B2A&stroke=1E3A5F&ring=38BDF8&fire=7DD3FC&currStreakNum=C9DCEB&sideNums=C9DCEB&currStreakLabel=38BDF8&sideLabels=C9DCEB&dates=8BA3B9" alt="streak" />
-</div>
+<table>
+  <tr>
+    <td width="50%"><img src="./assets/stats.svg" width="100%" alt="stats" /></td>
+    <td width="50%"><img src="https://streak-stats.demolab.com?user=mitherly&hide_border=true&background=0D1B2A&stroke=1E3A5F&ring=38BDF8&fire=7DD3FC&currStreakNum=C9DCEB&sideNums=C9DCEB&currStreakLabel=38BDF8&sideLabels=C9DCEB&dates=8BA3B9" width="100%" alt="streak" /></td>
+  </tr>
+</table>
 
 <div align="center">
-  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mitherly&layout=compact&langs_count=8&hide_border=true&bg_color=0D1B2A&title_color=7DD3FC&text_color=C9DCEB" alt="top langs" />
+  <img src="./assets/top-langs.svg" width="55%" alt="top langs" />
 </div>
 
 ---
